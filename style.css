@@ -21,6 +21,19 @@
     align-items: center;
 
 }
+.site-heading-name span{
+    color: red;
+   
+}
+.site-heading-name h1{
+    color: white;
+    
+}
+.humberger-line i{
+   font-size: 30px;
+   color: white;
+   
+}
 
 .logo img {
     padding: 10px;
@@ -29,6 +42,9 @@
     width: 50px;
     border: 1px solid red;
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .menubar ul li {
@@ -66,4 +82,12 @@
     background-color: pink;
     padding: 10px;
     border-radius: 10px;
+}
+
+
+
+
+@media screen (min-width:320) and (max-width:480) {
+    
+    
 }
