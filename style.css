@@ -442,35 +442,180 @@
 
 /* Signup page */
 .signup-contact {
-   margin-top: 100px;
+    margin-top: 100px;
     background: linear-gradient(135deg, #0a57a2 0%, #ccdcff 100%);
     height: 100vh;
-    
-
 }
 
 .left-content {
     max-width: 700px;
+    margin-top: 30px;
 }
 
 .left-content h1 {
-    font-size: 30px;
+    font-size: 40px;
     color: white;
     font-weight: 900;
-    margin:0 80px ;
+    margin: 0 80px;
+    padding-top: 150px;
 }
-.left-content p{
+
+.left-content p {
     font-size: 20px;
     color: white;
     padding-top: 20px;
-    margin:0 80px ;
+    margin: 0 80px;
+    text-align: justify;
 }
-.btn-grup-3 button{
+
+.btn-grup-3 {
+
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+    /* margin:80px  10px; */
+}
+
+.btn-grup-3 button {
     padding: 10px;
-     /* margin:80px  10px; */
+
 }
+
+.btn-7 {
+    color: white;
+    background-color: #17e89b;
+    border: none;
+}
+
+.btn-7:hover {
+    background-color: #025738;
+}
+
+.btn-8 {
+    color: rgb(11, 10, 10);
+    background-color: #dde4e1;
+    border: none;
+}
+
+.btn-8:hover {
+    background-color: #f1f5f4;
+}
+
 .right-content {
     max-width: 600px;
+}
+
+.signup-contact {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+    height: 100vh;
+}
+
+.form-inputs {
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.form-inputs h1,
+p {
+    text-align: center;
+    width: 90%;
+    padding: 10px;
+    font-weight: 900;
+
+}
+
+.form-inputs h1 {
+    color: rgb(234, 59, 15);
+}
+
+.form-inputs p {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.form-inputs input,
+.form-inputs textarea {
+    width: 95%;
+    padding: 15px;
+    border: 1px solid #ece2e2;
+    margin-top: 20px;
+    outline: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.btn-9 {
+    text-align: center;
+    padding: 10px;
+    width: 50%;
+    margin: 10px;
+    background-color: #17e89b;
+    border: none;
+    color: white;
+    font-size: 25px;
+}
+
+.btn-9:hover {
+    background-color: #025738;
+}
+footer {
+  background-color: #081b49;
+  color: white;
+  padding: 40px 20px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+
+
+.footer-section h3 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.footer-section p {
+  margin: 5px 0;
+  font-size: 14px;
+  text-align: left;
+}
+
+.footer-section a {
+  color: #4db8ff;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+.footer-section ul {
+  list-style: square;
+  padding-left: 20px;
+}
+
+.footer-section ul li {
+  margin: 5px 0;
+}
+
+iframe {
+  width: 100%;
+  height: 250px;
+  border: none;
+  border-radius: 10px;
 }
 
 
@@ -671,4 +816,54 @@
         margin-left: -48px;
     }
 
+    .signup-contact {
+        flex-direction: column;
+        width: 62vh;
+        margin-left: 10px;
+    }
+
+    .left-content {
+        width: 90%;
+    }
+
+    .left-content h1 {
+        font-size: 30px;
+        margin-top: -180px;
+        width: 50%;
+        margin-left: 0;
+    }
+
+    .left-content p {
+        margin-left: 0;
+        font-size: 14px;
+        font-weight: lighter;
+    }
+
+    .right-content {
+        padding-top: 150px;
+        width: 90%;
+
+    }
+    footer{
+        margin-top: 240%;
+    }
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        
+    }
+    iframe {
+        width: 100%;
+        height: 250px;
+    }
+    .footer-section h3{
+        text-align: left;
+    }
+    .footer-section p{
+        text-align: left;
+    }
+    .footer-section li {
+        margin-left: -85px;
+    }
 }
